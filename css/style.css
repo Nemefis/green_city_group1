@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.top_menu {
+    background-color: #666;
+    display: flex;
+    justify-content: space-between;
+}
+/* Обращаемся ко всем тегам <ul>, которые лежат внутри контейнера с классом ".top_menu" */
+.top_menu ul {
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+    /* Гасим внешние/внутренние отступы у списка ul */
+    padding: 0;
+    margin: 0;
+    /* Выравнивание элементов списка по вертикали, по центру */
+    align-items: center;
+    /* Убираем точки у списка */
+    list-style: none;
+}
+/* Обращаемся ко всем тегам <a>, которые лежат внутри контейнера с классом ".top_menu" */
+.top_menu a {
+    color: white;
+    text-decoration: none;
+}
