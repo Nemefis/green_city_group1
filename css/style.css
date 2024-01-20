@@ -3,7 +3,7 @@
     padding: 0;
 }
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .top_menu {
@@ -47,6 +47,9 @@
 .mb-50 {
     margin-bottom: 50px;
 }
+.mb-10 {
+    margin-bottom: 10px;
+}
 .banner h3 {
     font-weight: 100;
     font-size: 14px;
@@ -62,4 +65,29 @@ section.information {
 }
 .information__body {
     width: 46%;
+}
+
+.coordinators, .form {
+    text-align: center;
+}
+main p {
+    color: #999;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+main h2 {
+    color: #6DC72A;
+    font-size: 16px;
+    font-weight: 700;
+}
+.coordinatiors-cards {
+    display: flex;
+    justify-content: space-around;
+}
+.line {
+    height: 1px;
+    background: #6DC72A;
+    width: 90%;
+    margin: 0px auto 50px;
 }

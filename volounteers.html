@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <header class="header">
+        <header class="header mb-50">
             <div class="top_menu">
                 <img src="img/logo.png" alt="логотип">
                 <ul>
@@ -19,11 +19,77 @@
                 </ul>
             </div>
             <div class="banner">
-                <h1 class="mb-50">Стать волонтером<br> проще чем кажется</h1>
-                <h2 class="mb-50">Приглашаем Вас в наши дружные ряды!<br> Мы рады найти единомышленников и поддержку!</h2>
-                <h3>Форум поможет ответить на все ваши вопросы, вы всегда будете в курсе всех событий из жизни организации.<br> Это главный инструмент коммуникации волонтеров.</h3>
+                <h2>Волонтеры</h2>
             </div>
         </header>
+        <main>
+            <section class="coordinators mb-50">
+                <p class="mb-50">Волонтёрство – это одна из форм гражданской активности. Такая деятельность включает в себя обучающий и ориентирующий факторы, как для самих волонтёров, так и для людей, которые с ними работают.</p>
+                <h2 class="mb-50">Наши координаторы</h2>
+                <div class="coordinatiors-cards">
+                    <div class="card">
+                        <img class="mb-10" src="img/Rectangle1.png" alt="img">
+                        <h2 class="mb-10" >Иванов Иван</h2>
+                        <p class="mb-10" >Координатор волонтеров</p>
+                        <p>Помогает нам с координированием по ПФО</p>
+                    </div>
+                    <div class="card">
+                        <img class="mb-10" src="img/Rectangle2.png" alt="img">
+                        <h2 class="mb-10" >Петрова Елизавета</h2>
+                        <p class="mb-10" >Главный специалист</p>
+                        <p>Решает вопросы связанные с поставками провизии</p>
+                    </div>
+                    <div class="card">
+                        <img class="mb-10" src="img/Rectangle3.png" alt="img">
+                        <h2 class="mb-10" >Сидорова Светлана</h2>
+                        <p class="mb-10" >Директор направления</p>
+                        <p>Отвечает за развитие и центры занятости</p>
+                    </div>
+                    <div class="card">
+                        <img class="mb-10" src="img/Rectangle4.png" alt="img">
+                        <h2 class="mb-10" >Иванов Иван</h2>
+                        <p class="mb-10" >Координатор волонтеров</p>
+                        <p>Отвечает за ЦФО</p>
+                    </div>
+                </div>
+            </section>
+            <div class="line mb-50"></div>
+            <section class="form">
+                <h2 class="mb-10">Стать волонтером</h2>
+                <p class="mb-50">Оставьте свои контактные данные и мы свяжемся с Вами</p>
+                <form>
+                    <div>
+                        <label for="name">Имя</label>
+                        <input type="text" id="name" name="name" placeholder="Введите имя" required>
+                    </div>
+                    <div>
+                        <label for="phone">Телефон</label>
+                        <input type="phone" id="phone" name="phone" placeholder="8 999 999 99 99" required>
+                    </div>
+                    <div>
+                    <label for="e-mail">Почта</label>
+                        <input type="email" id="e-mail" name="e-mail" placeholder="example@mail.ru" required>
+                        <label for="city">Выберите город</label>
+                    </div>
+                    <div>
+                        <select name="city" id="city">
+                            <option value="ulyanovsk" disabled selected>Выберите город</option>
+                            <option value="ulyanovsk">Ульяновск</option>
+                            <option value="ulyanovsk">Димитровград</option>
+                            <option value="ulyanovsk">Казань</option>
+                            <option value="ulyanovsk">Уфа</option>
+                            <option value="ulyanovsk">Самара</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button type="submit">Отправить</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
     </div>
 </body>
 </html>
