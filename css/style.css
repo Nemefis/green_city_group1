@@ -25,15 +25,15 @@
     list-style: none;
 }
 /* Обращаемся ко всем тегам <a>, которые лежат внутри контейнера с классом ".top_menu" */
-.top_menu a:link, .top_menu a:visited {
+.links a:link, .links a:visited {
     color: white;
     text-decoration: none;
     transition: all 0.5s;
 }
-.top_menu a:hover {
+.links a:hover {
     color: black;
 }
-.top_menu a:active {
+.links a:active {
     color: red;
 }
 .banner {
@@ -62,6 +62,7 @@ section.information {
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
+    margin-bottom: 40px;
 }
 .information__body {
     width: 46%;
@@ -90,4 +91,28 @@ main h2 {
     background: #6DC72A;
     width: 90%;
     margin: 0px auto 50px;
+}
+
+/* Footer */
+footer.footer {
+    background-color: #666;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer a {
+    color: #fff
+}
+.footer__text {
+    width: 27%;
+    text-align: center;
+}
+.footer__text ul {
+    list-style: none;
+}
+
+.map {
+    text-align: center;
 }
